@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    height: 100vh;
+    /* background-image: url(../img/Travel-Time.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url(../img/Travel-Time.png) no-repeat center / cover;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0px 5px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.hero__content {}
+
+.heder {
+    padding-top: 72px;
+    background-color: aqua;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.hero__desc {}
+
+.title {}
+
+.subtitle {}
+
+.hero__btn-wrap {}
+
+.btn {}
+
+.hero__btn {}
